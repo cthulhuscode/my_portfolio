@@ -31,10 +31,15 @@
 
     transition: all 0.3s ease-in-out;
 
-    img {
+    svg {
       width: 40px;
       height: 40px;
       margin: 0 0.7rem;
+      color: #313bac;
+    }
+
+    svg:hover{
+      color: #313bac;
     }
 
     p {

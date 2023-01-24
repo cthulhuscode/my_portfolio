@@ -18,7 +18,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text">I Know that <span>Good Apps</span> <br />mean  <span>Good Business</span></h2>
 
       <div className="skills-list">
         {skills.map((skill, index) => (

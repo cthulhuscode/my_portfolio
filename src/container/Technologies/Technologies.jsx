@@ -10,7 +10,7 @@ const Technologies = () => {
   const [technologies, setTechnologies] = useState(null);
 
   useEffect(() => {
-    const experiencesQuery = "*[_type == 'experiences']";
+    const experiencesQuery = "*[_type == 'experiences'] | order(year desc)";
     const skillsQuery = "*[_type == 'technologies']";
 
     client
@@ -95,6 +95,6 @@ const Technologies = () => {
 
 export default AppWrap(
   MotionWrap(Technologies, "technologies"),
-  "technologies",
+  "experience",
   "bg_white"
 );
